@@ -27,7 +27,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 
-    margin: 0 auto;
+    margin: 0;
 }
 
 .list {
@@ -41,9 +41,7 @@ header {
 }
 
 .container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -150,6 +148,10 @@ header {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    
 }
 
 .visually-hidden {
@@ -175,6 +177,7 @@ header {
     font-size: 14px;
     line-height: 1.17;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .feature-list .text {
@@ -281,10 +284,6 @@ header {
 
 
 /* Works */
-.works{
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .works .title {
     color: var(--primary-text-color);
@@ -309,10 +308,13 @@ header {
     background-color: var(--primary-white-color);
 
     display: inline-block;
-    margin: 30px;
+    margin-bottom: 30px;
+    
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+    padding-right: auto;
+    padding-left: auto;
 }
 
 .works .items {
