@@ -184,6 +184,7 @@ header {
 }
 
 .section-title {
+    text-align: center;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -194,8 +195,13 @@ header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
+    
     letter-spacing: 0.03em;
+}
+
+.imgs {
+    display: flex;
+    gap: 30px;
 }
 
 .visually-hidden {
@@ -251,6 +257,9 @@ header {
 }
 
 /* Work */
+.row {
+    text-align: center;
+}
 
 .work-list .title {
     color: var(--primary-text-color);
@@ -276,6 +285,11 @@ header {
     display: inline-block;
 }
 
+ .team {
+    gap: 30px;
+    display: flex;
+   
+} 
 
 /* Button */
 
@@ -401,7 +415,7 @@ header {
 }
 
 .works .item:nth-child(3n) {
-    margin-right: 0;
+    margin-right: 30px;
 }
 
 .works .item:nth-last-child(-n + 3) {
@@ -415,6 +429,10 @@ header {
 /* Footer */
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: auto;
+
     background: var(--title-hero-color);
 }
 
