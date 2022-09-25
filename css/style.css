@@ -376,6 +376,7 @@ header {
 .works {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .works .title {
@@ -398,20 +399,27 @@ header {
 }
 
 .works .item {
-    width: calc((100%-60px)/3);
+    /* width: calc((100%-60px)/3);
     /* width: 370px; */
-    margin-right: 30px;
-    margin-bottom: 30px;  
+    /* margin-right: 30px;
+    margin-bottom: 30px;   */ */
 
-    background-color: var(--primary-white-color);
+    /* background-color: var(--primary-white-color); */
 
     display: inline-block;
    
+    /* border-left: 1px solid var(--border-works-color);
+    border-right: 1px solid var(--border-works-color);
+    border-bottom: 1px solid var(--border-works-color);  */
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.features {
+    padding: 20px 24px;
     border-left: 1px solid var(--border-works-color);
     border-right: 1px solid var(--border-works-color);
     border-bottom: 1px solid var(--border-works-color); 
-    padding-right: auto;
-    padding-left: auto;
 }
 
 .works .item:nth-child(3n) {
