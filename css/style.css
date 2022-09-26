@@ -23,6 +23,13 @@ html {
   box-sizing: inherit;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
@@ -298,6 +305,14 @@ h1, h2, h3, h4, h5, h6 {
     gap: 30px;
     display: flex;
 } 
+.benefits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-left: 1px solid var(--border-works-color);
+    border-right: 1px solid var(--border-works-color);
+    border-bottom: 1px solid var(--border-works-color); 
+    border-radius: 0px 0px 4px 4px;
+}
 
 /* Button */
 
@@ -484,4 +499,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+.box  {
+    font-style: normal;
 }
