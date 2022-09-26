@@ -402,7 +402,7 @@ header {
     /* width: calc((100%-60px)/3);
     /* width: 370px; */
     /* margin-right: 30px;
-    margin-bottom: 30px;   */ */
+    margin-bottom: 30px;   */ 
 
     /* background-color: var(--primary-white-color); */
 
@@ -436,6 +436,8 @@ header {
 
 /* Footer */
 
+
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -450,6 +452,10 @@ header {
 
 .logo .accent {
     color: var(--akcent-color);
+}
+
+.logos {
+    padding-left: 215px;
 }
 
 .box {
