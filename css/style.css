@@ -50,10 +50,11 @@ header {
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .box {
-    width: 1600px;
     margin: 0 auto;
 }
 
