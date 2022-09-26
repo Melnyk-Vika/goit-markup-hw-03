@@ -436,8 +436,6 @@ header {
 
 /* Footer */
 
-
-
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -452,14 +450,6 @@ header {
 
 .logo .accent {
     color: var(--akcent-color);
-}
-
-.logos {
-    padding-left: 215px;
-}
-
-.box {
-    font-style: normal;
 }
 
 .address {
