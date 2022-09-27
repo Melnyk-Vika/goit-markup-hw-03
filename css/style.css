@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Logo */
 
 .logo {
-    margin-right: 93px;
+     margin-right: 93px; 
 
     color: var(--logo-color);
     font-family: 'Raleway', sans-serif; 
@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 200px 0;
     list-style: none;
     outline: 2px solid var(--title-hero-color);
+    margin-bottom: 94px;
 }
 .hero-title {
     margin-top: 0;
@@ -191,18 +192,18 @@ h1, h2, h3, h4, h5, h6 {
 /* Section */ 
 
 .section {
-    padding-top: 94px;
+    padding-top: 0;
     padding-bottom: 94px;
 }
 .inner {
     background-color: var(--section-color);
-    width: 1600;
     margin: 0 auto;
     padding-bottom: 94px;
     padding-top: 94px;
 }
 
 .section-title {
+    padding-top: 0;
     margin-bottom: 50px;
     text-align: center;
     flex-wrap: wrap;
@@ -244,17 +245,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-list {
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
     gap: 30px;
 }
 
 .feature-list .item {
-    flex-basis: calc((100% - 90) / 4);
-}
-
-.feature-list .item + .item {
-    margin-left: 50px;
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .feature-list .title {
@@ -277,11 +272,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Work */
-.row {
-    text-align: center;
-    margin: 0;
-}
-
 .work-list .title {
     color: var(--primary-text-color);
 
@@ -306,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-basis: calc((100% - 90px) / 4);
 }
 
- .team {
+.team {
     gap: 30px;
     display: flex;
 } 
@@ -322,6 +312,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Button */
 
 .button {
+    border: none;
+    border-radius: 4px;
     color: var(--primary-white-color);
     background-color: var(--akcent-color);
 
@@ -381,9 +373,9 @@ h1, h2, h3, h4, h5, h6 {
    
 .buttons {
     display: flex;
-    text-align: center; 
-
     margin-bottom: 50px;
+    justify-content: center;
+    border: none;
 }    
 
 .buttons .item + .item {
@@ -446,8 +438,8 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid var(--border-works-color); 
 }
 
-.works .item:nth-child(3n) {
-    margin-right: 30px;
+.fotos {
+    padding-bottom: 4px;
 }
 
 .works .item:nth-last-child(-n + 3) {
@@ -459,6 +451,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Footer */
+
+.logofooter {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
 
 .footer {
     padding-top: 60px;
@@ -502,6 +500,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+.adress .item {
+    padding-bottom: 9px;
 }
 
 .box  {
