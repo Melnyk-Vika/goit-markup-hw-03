@@ -158,10 +158,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 50px;
 }
 
-/* .site-nav .item:not(:last-child) {
-    margin-right: 50px;
-} */
-
 /* Hero */
 
 .hero {
@@ -170,8 +166,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 200px 0;
     list-style: none;
     outline: 2px solid var(--title-hero-color);
-    margin-bottom: 94px;
 }
+
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
@@ -215,6 +211,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.17;
     
     letter-spacing: 0.03em;
+}
+
+.caption {
+    padding-top: 94px;
 }
 
 .imgs {
@@ -307,6 +307,10 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid var(--border-works-color);
     border-bottom: 1px solid var(--border-works-color); 
     border-radius: 0px 0px 4px 4px;
+}
+
+.benefits .title {
+    margin-bottom: 10px;
 }
 
 /* Button */
@@ -439,7 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fotos {
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .works .item:nth-last-child(-n + 3) {
@@ -502,8 +506,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.adress .item {
-    padding-bottom: 9px;
+.address .item {
+    margin-bottom: 9px;
 }
 
 .box  {
